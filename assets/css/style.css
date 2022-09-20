@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+
+:root {
+    --verde: #28A745;
+}
+
+.fa-hotel,
+.fa-location-dot,
+.fa-route {
+    color: var(--verde);
+}
+
+.fit-content {
+    width: fit-content;
+}
